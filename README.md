@@ -1,6 +1,6 @@
-# FilterSortInts
+# DedupeSortInts
 
-Filters and sorts unique integers from a space-separated input string, returning results in ascending order.
+Deduplicates and sorts integers from a space-separated input string, returning results in ascending order.
 
 ---
 
@@ -13,7 +13,7 @@ Given a string of space-separated integers, this program removes duplicate value
 ## Project Structure
 
 ```
-FilterSortInts/
+DedupeSortInts/
 ├── Program.cs        — Entry point. Handles I/O only. No algorithm logic.
 ├── InputParser.cs    — Splits and parses raw string input into List<int>.
 ├── MergeSorter.cs    — Implements Merge Sort. Isolated, independently testable.

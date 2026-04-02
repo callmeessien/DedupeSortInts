@@ -3,7 +3,7 @@
 
 using System;
 
-namespace FilterSortInts
+namespace DedupeSortInts
 {
     // Merge Sort Strategy:
     //  DIVIDE: Split the list in half recursively until each sub-list has 1 element (trivially sorted).

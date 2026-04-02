@@ -9,7 +9,7 @@
 
 using System;
 
-namespace FilterSortInts
+namespace DedupeSortInts
 {
     public static class Processor
     {

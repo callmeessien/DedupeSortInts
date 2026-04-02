@@ -5,14 +5,14 @@
 
 using System;
 
-namespace FilterSortInts
+namespace DedupeSortInts
 {
     public class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine();
-            Console.WriteLine("Filter and Sort Integers");
+            Console.WriteLine("Deduplicate and Sort Integers");
             Console.WriteLine();
             Console.WriteLine("This program reads a space-separated list of integers,");
             Console.WriteLine("removes duplicates, and returns them sorted in ascending order.");
