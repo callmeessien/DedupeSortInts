@@ -13,7 +13,7 @@ namespace DedupeSortInts
 {
     public static class Processor
     {
-        public static string FilterSort(string input)
+        public static string Run(string input)
         {
             // PARSE
             // Time: O(n) where n = number of tokens

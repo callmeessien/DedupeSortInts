@@ -25,7 +25,7 @@ namespace DedupeSortInts
                 string? rawInput = Console.ReadLine() ?? string.Empty;
 
                 // Run the Algorithm
-                string output = Processor.FilterSort(rawInput);
+                string output = Processor.Run(rawInput);
 
                 // Display Results
                 Console.WriteLine();
